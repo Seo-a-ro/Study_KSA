@@ -21,6 +21,8 @@
 ### Mnist DNN(심층신경망) 모델 설계 및 컴파일
 
 ### DNN 모델 성능평가
+![dnn_loss_acc](https://user-images.githubusercontent.com/82528589/118530256-68170200-b77f-11eb-97b2-5b10ec489fbb.PNG)
+
 
 ### Mnist DNN 학습 모델 그래프
 
