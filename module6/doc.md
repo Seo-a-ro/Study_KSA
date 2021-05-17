@@ -19,17 +19,24 @@
 * 5. 모델 평가 및 분석
 
 ### Mnist DNN(심층신경망) 모델 설계 및 컴파일
+![layer_dnn](https://user-images.githubusercontent.com/82528589/118530578-c512b800-b77f-11eb-91a3-065e9cd3f95c.PNG)
+
 
 ### DNN 모델 성능평가
 ![dnn_loss_acc](https://user-images.githubusercontent.com/82528589/118530256-68170200-b77f-11eb-97b2-5b10ec489fbb.PNG)
 
 
 ### Mnist DNN 학습 모델 그래프
-
-
-### CNN(합성곱 신경망) 모델 설계
+![loss_dnn](https://user-images.githubusercontent.com/82528589/118530641-d8258800-b77f-11eb-8be1-5c4afed04fdb.PNG)
+![acc_dnn이게원본](https://user-images.githubusercontent.com/82528589/118530698-e8d5fe00-b77f-11eb-8270-cff6bbca1dab.PNG)
 
 
 ### CNN 모델 성능평가
+![cnn_acc](https://user-images.githubusercontent.com/82528589/118530755-f7bcb080-b77f-11eb-8938-af1f24923e28.PNG)
+
 
 ### Mnist CNN 학습 모델 그래프 
+![손실함수](https://user-images.githubusercontent.com/82528589/118530990-466a4a80-b780-11eb-9e86-37e626ca74e1.PNG)
+![정확도](https://user-images.githubusercontent.com/82528589/118531044-55e99380-b780-11eb-9065-eaa04320e47d.PNG)
+
+
