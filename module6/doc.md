@@ -1,4 +1,4 @@
-# KSA_Module6_CNN
+# KSA_Module6_CNN_day1
 ### Pycharm 설치
 ### 아나콘다 prompt에서 가상환경 설정하기 
 * codna info --envs  // 가상환경 목록 보기
