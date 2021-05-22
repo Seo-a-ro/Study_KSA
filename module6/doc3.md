@@ -31,6 +31,6 @@
 ## 사용한 모델 
 ![image](https://user-images.githubusercontent.com/82528589/119217081-b9721900-bb12-11eb-9e1d-4fd380e385cb.png)
 
-# TEST 예측 
+## TEST 예측 
 ![image](https://user-images.githubusercontent.com/82528589/119217061-a52e1c00-bb12-11eb-8477-fc5058a041bd.png)
 
