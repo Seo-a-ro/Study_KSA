@@ -21,7 +21,7 @@ ResNet은 2015년 ILSVRC에서 오류율 3.6%로 1등을 차지함.
 
 층이 깊어질 수록 역전파되는 gradient가 중간에 죽어서 학습이 잘 되지 않는 문제 (gradient vanishing)가 발생함. 
 
-![image-20210524205105446](C:\Users\aro\AppData\Roaming\Typora\typora-user-images\image-20210524205105446.png)
+![image](https://user-images.githubusercontent.com/82528589/119343845-efa9c700-bcd1-11eb-85bf-e81dbe5ed6e5.png)
 
 이러한 문제를 해결하기 위해서 스킵 연결을 시도함. 이 구조가 층의 깊이에 비례해 성능을 향상시킬 수 있게 한 핵심임.(하지만 층을 깊게 하는 데는 여전히 한계가 있음)  스킵연결이란 입력 데이터를 합성곱 계층을 건너뛰어 출력에 바로 더하는 구조를 말함.  스킵 연결은 층이 깊어져도 학습을 효율적으로 할 수 있도록 해주는데, 이는 역전파 때 스킵 연결이 신호 감쇠를 막아주기 때문임.
 
@@ -37,7 +37,7 @@ VGG는 합성곱 계층과 풀링 계층으로 구성된 기본적인 CNN.
 
 VGG는 3X3의 작은 필터를 사용한 합성곱 계층을 연속으로 거친다는 것임. 합성곱 계층을 2~4회 연속으로 풀링 계층을 두어 크기를 절바능로 줄이는 처리를 반복함. 그리고 마지막에는 완전 연결 계층을 통과시켜 결과를 출력함.
 
-![image-20210524205008199](C:\Users\aro\AppData\Roaming\Typora\typora-user-images\image-20210524205008199.png)
+![image](https://user-images.githubusercontent.com/82528589/119343952-0c45ff00-bcd2-11eb-9560-c14c35dd786f.png)
 
 
 
