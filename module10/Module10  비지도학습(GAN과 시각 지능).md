@@ -26,8 +26,7 @@
 
 * 이미지의 크기가 256 x 256 픽셀이라면 RGB 컬러값까지 총 256 x 256 x 3개의 변수가 생긴다. 그 변수들의 어떤 조합은 사람 얼굴처럼 보이지만, 어떤 조합은 그렇지 않다. 얼굴 이미지의 생성 모델을 만들겠다는 것은 사람 얼굴처럼 보이는 픽셀값 조합의 분포를 찾아내겠다는 것이다. 
 
-![image-20210616052550300](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210616052550300.png)
-
+![image-20210616052550300](https://user-images.githubusercontent.com/82528589/122124370-28b8ff80-ce6a-11eb-963e-b3e9a7b25ac7.png)
 G: 학습할 알고리즘 
 
 θ_g: 알고리즘을 통해 나온 결과 data
@@ -40,7 +39,7 @@ G: 학습할 알고리즘
 * 입력(latent vector)를 받아서 결과(synthesized image)를 생성하는 모듈
 * Vanilla GAN에서는 convolution을 사용하지 않음 
 
-![image-20210616053043388](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210616053043388.png)
+![image-20210616053043388](https://user-images.githubusercontent.com/82528589/122124391-31a9d100-ce6a-11eb-915b-a6a3864a5ff9.png)
 
 
 
@@ -49,7 +48,7 @@ G: 학습할 알고리즘
 * n개의 generator block으로 구성됨 (n=4)
 * generator block은 낮은 해상도의 입력을 받아서 높은 해상도의 출력을 생성 
 
-![image-20210616053247269](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210616053247269.png)
+![image-20210616053247269](https://user-images.githubusercontent.com/82528589/122124452-42f2dd80-ce6a-11eb-9037-4e0de0e76edc.png)
 
 ##### Generator 의 구조 (2) generator block의 구조
 
@@ -98,7 +97,7 @@ class Generator(nn.Module):
 * 입력(real data  or fake data)을 받아서 real/fake를 판정하는 모듈
 * Classifier와 유사한 역할을 수행함 
 
-![image-20210616053733403](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210616053733403.png)
+![image-20210616053733403](https://user-images.githubusercontent.com/82528589/122124504-53a35380-ce6a-11eb-9790-de1d2b1533cb.png)
 
 여기서 출력은 들어오는 입력보다 나가는 출력이 더 작아짐 
 
@@ -109,7 +108,7 @@ class Generator(nn.Module):
 * n개의 discriminator block으로 구성됨 (n=3)
 * discriminator block은 높은 해상도의 입력을 받아서 낮은 해상도의 출력을 생성 
 
-![image-20210616053927046](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210616053927046.png)
+![image-20210616053927046](https://user-images.githubusercontent.com/82528589/122124555-674eba00-ce6a-11eb-861a-369220bfb344.png)
 
 
 
@@ -163,14 +162,14 @@ def discriminator_block(input_dim, output_dim):
 
 딥러닝을 학습시킨다는 것은 최적의 가중치를 찾아간다는 것을 의미한다. 가중치는 처음에 랜덤으로 초기화되지만, 모델의 손실 함수(Loss Function)을 최소화시키는 방향으로 조금씩 업데이트된다. 이때 손실 함수 값이 역전파를 통해 각 층의 가중치에 전달되며 업데이트 방향과 크기를 결정한다. 이런 방식으로 가중치를 최적화하는 방식을 경사하강법(Gradient Descent)이라고 부른다.
 
-![image-20210616054741248](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210616054741248.png)
+![image-20210616054741248](https://user-images.githubusercontent.com/82528589/122125204-21462600-ce6b-11eb-8e88-2756e25a2071.png)
 
 * Discriminator D는 진짜 데이터 x를 입력받았을 경우 D(x)가 1로 생성자가 잠재변수로 부터 생성한 가짜 데이터 G(z)를 입력받았을 경우 D(G(z))를 0을 예측한다.
   * Generator는 생성한 가짜 데이터 G(z)를 Discriminator 가 입력 받는 경우 (=D(G(z))) Discriminator가 이를 1로 예측하도록 하는 것을 목표로 학습한다.  	
 
 
 
-![image-20210616055429897](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210616055429897.png)
+![image-20210616055429897](https://user-images.githubusercontent.com/82528589/122125217-26a37080-ce6b-11eb-8f74-0357e49019fd.png)
 
 
 
@@ -208,7 +207,7 @@ def discriminator_block(input_dim, output_dim):
 
 
 
-![image-20210616060648177](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210616060648177.png)
+![image-20210616060648177](https://user-images.githubusercontent.com/82528589/122125236-2dca7e80-ce6b-11eb-8c9f-a0dde80770ca.png)
 
 * D() :discrimination 데이터 
   처음에는 discrimination 이 잘 구분을 못한다.나중으로 갈수록 구분을 잘하게 된다.
