@@ -162,7 +162,7 @@ def discriminator_block(input_dim, output_dim):
 
 딥러닝을 학습시킨다는 것은 최적의 가중치를 찾아간다는 것을 의미한다. 가중치는 처음에 랜덤으로 초기화되지만, 모델의 손실 함수(Loss Function)을 최소화시키는 방향으로 조금씩 업데이트된다. 이때 손실 함수 값이 역전파를 통해 각 층의 가중치에 전달되며 업데이트 방향과 크기를 결정한다. 이런 방식으로 가중치를 최적화하는 방식을 경사하강법(Gradient Descent)이라고 부른다.
 
-![image-20210616054741248](https://user-images.githubusercontent.com/82528589/122125204-21462600-ce6b-11eb-8e88-2756e25a2071.png)
+![image](https://user-images.githubusercontent.com/82528589/122421407-4e0f5000-cfc7-11eb-9e67-5dc685381e80.png)
 
 * Discriminator D는 진짜 데이터 x를 입력받았을 경우 D(x)가 1로 생성자가 잠재변수로 부터 생성한 가짜 데이터 G(z)를 입력받았을 경우 D(G(z))를 0을 예측한다.
   * Generator는 생성한 가짜 데이터 G(z)를 Discriminator 가 입력 받는 경우 (=D(G(z))) Discriminator가 이를 1로 예측하도록 하는 것을 목표로 학습한다.  	
