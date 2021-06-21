@@ -53,7 +53,7 @@
 
 
 
-![image-20210617234921355](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210617234921355.png)
+![image-20210617234921355](https://user-images.githubusercontent.com/82528589/122727398-f23c1400-d2b1-11eb-8b85-87d7dd1ba4d9.png)
 
 
 
@@ -65,11 +65,11 @@
 
 
 
-![image-20210617235234485](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210617235234485.png)
+![image-20210617235234485](https://user-images.githubusercontent.com/82528589/122727430-f8ca8b80-d2b1-11eb-9f0a-5d87eb8f46ac.png)
 
 
 
-![image-20210617235611935](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210617235611935.png)
+![image-20210617235611935](https://user-images.githubusercontent.com/82528589/122727454-0253f380-d2b2-11eb-88f1-4c3e902c0b63.png)
 
 * DCGAN(Deep Convolutional GAN,2015)는 CNN구조로 판별자 D와 생성자 G를 구성한 GAN이다.
 
