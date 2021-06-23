@@ -6,7 +6,7 @@
 
 나의 행운은 적의 불행이요, 나의 불행은 적의 행운이다.  
 
-#### GAN이란? 
+#### GAN이란 
 
 * 'Generative Adversarial Netowork'의 약자이다. 
 
