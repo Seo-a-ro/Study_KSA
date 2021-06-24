@@ -14,7 +14,7 @@
   * 언어학적 측면: 언어의 규칙성이나 변화 양상 등을 파악한다. 
   * 전산학적 측면: 자연어를 입출력으로 사용하는 컴퓨터 프로그램에 사용되는 처리과정 
   
-  ![image-20210624233004315](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210624233004315.png)
+ ![image-20210624233004315](https://user-images.githubusercontent.com/82528589/123282272-4f9bc380-d545-11eb-861e-74acd47fae47.png)
   
   
   
@@ -36,7 +36,7 @@
   - 인공지능 스피커
 * 자연어 처리의 연구 분야 
 
-![image-20210624201214717](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210624201214717.png)
+![image-20210624201214717](https://user-images.githubusercontent.com/82528589/123282315-56c2d180-d545-11eb-89bd-0d4312988eeb.png)
 
 ---
 
@@ -76,8 +76,7 @@
   * 사람의 언어 체계는 계층적 구조를 가짐
 * 높은 차원으로 표현되어 sparse vector 가 됨
 * 딥러닝에서는 단어 임베딩(word embedding)을 통해 해결 
-
-![image-20210624233614091](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210624233614091.png)
+![image-20210624233614091](https://user-images.githubusercontent.com/82528589/123282341-5de9df80-d545-11eb-9754-c781c56550a4.png)
 
 
 
@@ -106,7 +105,7 @@
 
     - 영어는 문법이 있어서 표현이 아예 달라 인식하기 쉽지만, 한국어는 어려움
 
-![image-20210624221649075](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210624221649075.png)
+![image-20210624221649075](https://user-images.githubusercontent.com/82528589/123282372-6510ed80-d545-11eb-8101-e42deb5260ad.png)
 
 4. 한자 기반의 언어 & 단어 중의성 
   - 한자(표의 문자) -> 한글(표음 문자) 로 감싸 안음 (wrapping)
@@ -203,7 +202,7 @@
 * 문법적으로만 사용되는 단어는 (조사, be 동사 등) 일반적으로 삭제 
 * 사전에 임베딩된 단어 사전을 사용하여 연구를 진행하는 경우가 많음 
 
-![image-20210624225044550](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210624225044550.png)
+![image-20210624225044550](https://user-images.githubusercontent.com/82528589/123282395-6cd09200-d545-11eb-93a5-62c1d16f9cfd.png)
 
 ##### 3. 코퍼스 , 모델
 
