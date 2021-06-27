@@ -8,7 +8,7 @@
 
 
 
-![image-20210626161124883](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210626161124883.png)
+![image-20210626161124883](https://user-images.githubusercontent.com/82528589/123542674-e2c33c00-d785-11eb-92c5-8ca090657ef4.png)
 
 ---
 
@@ -20,7 +20,7 @@
 * 분석을 위해서는 비정형 데이터의 정형화가 요구됨. 정형화 과정을 전처리라 지칭한다.
 * 세상에 존재하는 대부분의 가공되지 않은 데이터는 비정형 데이터의 형식이기 때문에 이 과정은 필수적이다. 
 
-![image-20210626161419528](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210626161419528.png)
+![image-20210626161419528](https://user-images.githubusercontent.com/82528589/123542681-ece53a80-d785-11eb-8a7b-ef121609f309.png)
 
 
 
@@ -138,7 +138,7 @@ html 파일 형식의 경우 쓸데없는 <center>, <begin> 없애주고 pdf 파
 
 * 맞춤법 교정과정 
 
-  ![image-20210627200619179](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210627200619179.png)
+ ![image-20210627200619179](https://user-images.githubusercontent.com/82528589/123542693-02f2fb00-d786-11eb-9799-81473c1491d8.png)
 
 * 해당 방법을 구현하기 위해서는 다음이 요구됨
   * 체언, 용언, 어미, 조사 등으로 구성된 품질 좋은 사전
@@ -158,10 +158,10 @@ html 파일 형식의 경우 쓸데없는 <center>, <begin> 없애주고 pdf 파
 * Bayesian inference model 
   * 올바른 교정 결과 c hat을 도출하기 위해 주어진 단어로부터 오타가 일어날 확률을 확률적으로 계산하는 방법 
 
-![image-20210627201214544](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210627201214544.png)
+![image-20210627201214544](https://user-images.githubusercontent.com/82528589/123542701-0dad9000-d786-11eb-986d-ec1ac9a797c3.png)
 
 * 예시
   * 병원 암 진단 검사에서 '양성'이 나왔다면, 진짜 암일 확률은? 
 
-   ![image-20210627201659998](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210627201659998.png)
+   ![image-20210627201659998](https://user-images.githubusercontent.com/82528589/123542708-169e6180-d786-11eb-8c3d-29108286f8b6.png)
 
